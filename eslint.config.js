@@ -14,6 +14,8 @@ export default tseslint.config(
     rules: {
       ...reactHooks.configs.recommended.rules,
     },
-    ignores: ['*.test.tsx'],
+  },
+  {
+    ignores: ['dist', 'node_modules'],
   },
 );
